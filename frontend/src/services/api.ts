@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { Artwork, CreateArtworkDto, UpdateArtworkDto } from '../types/artwork'
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://art-gallery-m85w.onrender.com'
 const API_ENDPOINT = `${API_URL}/artworks`
 
 export interface ArtworkFilters {
