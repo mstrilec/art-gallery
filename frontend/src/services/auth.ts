@@ -6,7 +6,7 @@ import {
 	User,
 } from '../types/auth'
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://art-gallery-m85w.onrender.com'
 const AUTH_ENDPOINT = `${API_URL}/auth`
 
 axios.interceptors.request.use(
